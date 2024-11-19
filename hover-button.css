@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: left;
+    background-color: black;
+}
+
+.hover-button{
+    background-color: aqua;
+    border-radius: 8px;
+    border: 2px solid#fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor:pointer;
+    transition: all 0.3s ease;
+}
+.hover-button:hover{
+    background-color:rgb(255, 0, 179);
+    
+    box-shadow: 0 0 10px #fff,0 0 20px #ef0ee0,0 0 30px #1d0af0;
+    animation:hover-button 2s infinite;
+    transform: scale(1.5);
+}
+a {
+    text-decoration: none;
+    color: #fff;
+
+}
